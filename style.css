@@ -834,7 +834,6 @@ section {
 .skills-container {
     position: relative;
     margin-top: 3rem;
-    overflow-x: hidden;
 }
 
 .skills-wrapper {
@@ -854,8 +853,8 @@ section {
 
 .skills-circle {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 325px;
+    height: 360px;
     animation: rotate-slow 30s linear infinite;
 }
 
@@ -1814,13 +1813,13 @@ footer {
     }
 
     .skills-visual {
-        height: 400px;
+        height: 440px;
         margin: 0 auto;
     }
 
     .skills-circle {
-        width: 300px;
-        height: 300px;
+        width: 225px;
+        height: 250px;
     }
 
     .skill-node {
