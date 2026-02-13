@@ -834,7 +834,7 @@ section {
 .skills-container {
     position: relative;
     margin-top: 3rem;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .skills-wrapper {
