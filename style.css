@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
     background: var(--bg-gradient);
     background-attachment: fixed;
     color: var(--text-primary);
@@ -49,6 +49,10 @@ body {
     min-height: 100vh;
     line-height: 1.6;
     transition: background 0.4s ease, color 0.4s ease;
+}
+
+button {
+    font-family: "Poppins", sans-serif !important;
 }
 
 p a {
@@ -1378,6 +1382,10 @@ section {
         opacity: 1 !important;
         transform: translateY(0) !important;
     }
+
+    .skills-wrapper {
+        overflow-x: hidden;
+    }
 }
 
 .portfolio-grid {
@@ -1813,12 +1821,12 @@ footer {
     }
 
     .skills-visual {
-        height: 440px;
+        height: 350px;
         margin: 0 auto;
     }
 
     .skills-circle {
-        width: 225px;
+        width: 220px;
         height: 250px;
     }
 
