@@ -1657,6 +1657,12 @@ section {
     cursor: not-allowed;
 }
 
+.resume-download {
+    width: max-content;
+    margin-top: 15px;
+    padding: 1rem 2rem;
+}
+
 /* Footer */
 footer {
     background: var(--bg-gradient);
