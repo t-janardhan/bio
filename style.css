@@ -111,6 +111,10 @@ nav.scrolled {
     gap: 1rem;
 }
 
+.mobile-toggle {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .nav-container {
         justify-content: center;
@@ -1403,6 +1407,10 @@ section {
 
     #skills {
         padding-top: 15px;
+    }
+
+    .mobile-toggle {
+        display: block;
     }
 }
 
