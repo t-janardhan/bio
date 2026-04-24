@@ -1,1 +1,1 @@
-live url https://github.com/t-janardhan/bio
+live url https://t-janardhan.github.io/bio/
